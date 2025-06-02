@@ -1,6 +1,6 @@
 from azure.storage.blob import BlobServiceClient
 
-AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=fleetstorage1234;AccountKey=qgmdMq4nEKeJsq3LRCxmAr+2VcVIbyoU3KKqR9sj8Ns5IOL3mMF6PzvGWm1OM0faNTpqysW9axuo+ASt9XEvKw==;EndpointSuffix=core.windows.net"
 CONTAINER_NAME = "ais-data"
 BLOB_NAME = "fake_ais_data.csv"
 LOCAL_FILE_PATH = "storage/fake_ais_data.csv"
